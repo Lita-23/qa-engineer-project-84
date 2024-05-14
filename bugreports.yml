@@ -1,14 +1,14 @@
  ---
  - summary: |
     Цена товара при смене языка не переводится в рубли
-   environment: |
+    environment: |
     Google Chrome   107.0.5304.121 (Официальная сборка) (64 бит)
     ОС: Windows 10
-   steps-to-reproduce: |
+    steps-to-reproduce: |
     1. Зайти на страницу логина https://runit.hexlet.ru/login
     2. Нажать на конопку «Language»
     3. Выбрать язык «Russian»
-   expected-result: |
+    expected-result: |
     На старинице каталога цена товаров переведена в рубли
-   actual-result: |
+    actual-result: |
     При смене языка на русский язык цена товара не переведа в рубли
