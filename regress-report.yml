@@ -1,0 +1,19 @@
+ ---
+test-cases:
+  - summary: |
+      Проверка добавления товара в корзину
+    status: pass
+
+  - summary: |
+      Проверка удаления товара из корзины
+    status: pass
+
+  - summary: |
+      Проверка строки поиска по ключевому слову
+    status: pass
+
+  - summary: |
+      Проверка фильтра по категории
+    status: pass
+
+bugreports: []
