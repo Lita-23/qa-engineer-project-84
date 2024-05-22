@@ -4,7 +4,7 @@
   requirement: |
     Пользователь должен иметь возможность добавлять товар в корзину, и видеть отображение добавленного товара в корзине
   prerequisites: |
-    no-data
+    Открыта главная страница каталога https://hexlet-products-store.vercel.app/
   test-data: |
     no-data
   steps:
@@ -19,7 +19,7 @@
   requirement: |
     Пользователь должен иметь возможность удалить товар из корзины
   prerequisites:
-    Открыта страница каталога
+    Открыта страница каталога https://hexlet-products-store.vercel.app/
   test-data: |
     no-data
   steps:
@@ -35,7 +35,7 @@
   requirement: |
     Пользователь должен иметь возможность искать товары по ключевому слову
   prerequisites: |
-    no-data
+    Открыта главная страница каталога https://hexlet-products-store.vercel.app/
   test-data: |
     no-data
   steps:
@@ -48,7 +48,7 @@
   requirement: |
     Пользователь должен иметь возможность фильтровать товары
   prerequisites:
-    no-data
+    Открыта главная страница каталога https://hexlet-products-store.vercel.app/
   test-data: |
     no-data
   steps:
