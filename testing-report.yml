@@ -14,3 +14,19 @@
 - summary: |
     Проверка фильтра по категории
   status: pass
+
+- summary: |
+    Проверка фильтра «In stock»
+  status: pass
+
+- summary: |
+    Проверка добавления товара со страницы товара
+  status: pass
+
+- summary: |
+    Проверка открытия карточки товара
+  status: pass
+
+- summary: |
+    Проверка оформления заказа
+  status: pass 
