@@ -111,3 +111,57 @@
     - Нажать на «In stock»  
   expected-result: |
     Отображаются все товары «в наличии»
+
+- summary: |
+    Проверка фильтра "Price"
+  requirement: |
+    Пользователь должен иметь возможность просматривать товары по выбранной цене
+  prerequisites:
+    Открыта главная страница каталога https://hexlet-products-store.vercel.app/
+  test-data: |
+    no-data
+  steps:
+    - В фильтре "Price" ввести любую необходимую сумму,например ( от 0 до 1000)
+  expected-result: |
+    Отображаются все товары до 1000
+
+- summary: |
+    Проверка фильтра "Brand"
+  requirement: |
+    Пользователь должен иметь возможность просматривать товар по выбранной категории "Brand"
+  prerequisites:
+    Открыта главная страница каталога https://hexlet-products-store.vercel.app/
+  test-data: |
+    no-data
+  steps:
+    - В фильтре "Brand" нажать на любой выбранный бренд, например "Dior" 
+  expected-result: |
+    Отображаются все товары выбранного бренда
+
+- summary: |
+    Проверка очистки корзины и продолжение покупок из корзины
+  requirement: |
+    Пользователь должен иметь возможность очистить корзину и продолжить покупки со страницы корзины
+  prerequisites:
+    Открыта страница корзины с товаром https://hexlet-products-store.vercel.app/cart
+  test-data: |
+    no-data
+  steps:
+    - Нажать на конопку "Clear cart"
+    - Нажать на конопку "Continue shopping"
+  expected-result: |
+    Пользователь перемещен на главную страницу каталога и может продолжить покупки
+
+- summary: |
+    Проверка смены языка
+  requirement: |
+    Пользователь должен иметь возможность менять язык на выбранный
+  prerequisites:
+    Открыта главная страница каталога https://hexlet-products-store.vercel.app/
+  test-data: |
+    no-data
+  steps:
+    - Нажать на конопку "Language"
+    - В выпадающем списке выбрать "Russian"
+  expected-result: |
+    При смене языка весь сайт меняет язык на выбранный
