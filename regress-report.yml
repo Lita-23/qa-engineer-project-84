@@ -16,4 +16,41 @@ test-cases:
       Проверка фильтра по категории
     status: pass
 
+  - summary: |
+      Проверка добавление товара со страницы товара
+    status: pass
+
+  - summary: |
+      Проверка оформления заказа
+    status: pass
+
+  - summary: |
+      Проверка открытия карточки товара
+    status: pass
+
+  - summary: |
+      Проверка фильтра <In stock>
+    status: pass
+
+  - summary: |
+      Проверка фильтра <Price>
+    status: pass
+
+  - summary: |
+      Проверка фильтра <Brand>
+    status: pass
+
+  - summary: |
+      Проверка очистки корзины и продолжение покупок из корзины
+    status: pass
+
+  - summary: |
+      Проверка смены языка
+    status: pass
+
+  - summary: |
+      Проверка просмотра информации о товаре
+    status: pass
+
+
 bugreports: []
