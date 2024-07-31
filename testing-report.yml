@@ -29,4 +29,24 @@
 
 - summary: |
     Проверка оформления заказа
-  status: pass 
+  status: pass
+
+- summary: |
+    Проверка фильтра <Price>
+  status: pass
+
+- summary: |
+    Проверка фильтра <Brand>
+  status: pass
+
+- summary: |
+    Проверка очистки корзины и продолжение покупок из корзины
+  status: pass
+
+- summary: |
+    Проверка смены языка
+  status: pass
+
+  - summary: |
+      Проверка просмотра информации о товаре
+    status: pass
