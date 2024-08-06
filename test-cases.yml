@@ -179,3 +179,18 @@
     - Нажать на выбранный товар 
   expected-result: |
     На странице товара и в каталоге открывается название, рейтинг, цена со скидкой и без нее
+
+- summary: |
+    Проверка devtools
+  requirement: |
+    Важно проверить, что все запросы уходят и приходят ответы без ошибок
+  prerequisites:
+    Открыта страница корзины с товаром https://hexlet-products-store.vercel.app/cart
+  test-data: |
+    no-data
+  steps:
+    - Открыть devtools
+    - Нажать на конопку "Checkout"
+  expected-result: |
+    Все запросы уходят и приходят ответы без ошибок
+
